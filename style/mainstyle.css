@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --purple : #8976FF;
+    --purple-dark : #603BFF;
+    --purple-light : #C2B6FE;
+    --purple-marine : #16006D;
+    --white-gray : #f0f0f0;
+    --gray : #D9D9D9;
+    --white : #F7F7F7;
+    font-family: "Inter Semi Bold", sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+header, main{
+    height: 100%;
+}

@@ -1,0 +1,93 @@
+.left-side{
+    width: 35%;
+    height: 100%;
+    background-color: var(--purple);
+}
+.right-side{
+    width: 65%;
+    height: 100%;
+    background-color: var(--white-gray);
+}
+h1{
+    color: var(--gray);
+    text-align: center;
+    font-size: 4vw;
+    margin-top: 20%;
+}
+.se-connecter{
+    margin: 20px 20px;
+}
+h2{
+    color: var(--purple);
+    text-align: start;
+}
+.login-box{
+    height: 60%;
+    width: 50%;
+    margin: 12% auto;
+    background-color: var(--gray);
+    border: solid 2px var(--purple-light);
+    border-radius: 4px;
+}
+.login-box p{
+    font-size: 14px;
+}
+.login-box a, p{
+    color: #111213;
+}
+.pls-connect-text{
+    width: 60%;
+    margin: 60px auto;
+}
+form{
+    height: 50%;
+    margin: 18% 0;
+}
+.login-form{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.icon-input{
+    position: relative;
+    margin-top: 30px;
+}
+.icon-input i{
+    position: absolute;
+    bottom: 0;
+    left: -30px;
+    font-size: 22px;
+    color: var(--purple-light);
+}
+.login-form input{
+    width: 100%;
+    border: none;
+    background: none;
+    border-bottom: solid 2px var(--purple-light) ;
+    font-size: 22px;
+}
+.login-form ::placeholder{
+    color: #9a9a9a;
+}
+.login-form ::-ms-input-placeholder{
+    color: #9a9a9a;
+}
+.form-right-aligned{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 8px;
+}
+button{
+    width: 30%;
+    height: auto;
+    padding: 10px 10px;
+    margin-top: 30px;
+    border-radius: 4px;
+    border: solid 2px var(--purple);
+    background-color: var(--purple-light);
+    color: var(--white);
+    cursor: pointer;
+}
