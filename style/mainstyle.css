@@ -14,9 +14,14 @@
 }
 body{
     height: 100vh;
-    display: flex;
-    flex-direction: row;
+    background-color: var(--white-gray);
 }
-header, main{
-    height: 100%;
+header{
+    height: 30%;
+}
+main{
+    height: 70%;
+}
+h1{
+    color: var(--purple);
 }
